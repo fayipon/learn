@@ -1,2 +1,7 @@
 # golang_learn
-golang 練習題
+golang 學習用
+
+
+# leet_code
+
+# code war
