@@ -1,7 +1,8 @@
 # golang_learn
-golang 基礎練習\n
+<p>
+golang 基礎練習
 /learn
-
+</p>
 
 # leet_code
 leet code 題目\n
