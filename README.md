@@ -1,6 +1,6 @@
 # golang_learn
 
-golang 基礎練習
+golang 自我基礎練習
 <br>
 /learn
 
@@ -10,6 +10,6 @@ leet code 題目
 /leet_code
 
 # code war
-code war
+code war 題目
 <br>
 /code_war
