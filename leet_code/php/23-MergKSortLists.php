@@ -13,26 +13,29 @@ class Solution {
      * @param ListNode[] $lists
      * @return ListNode
      */
+
     static function mergeKLists($lists) {
         
         $tmp = array();
         foreach ($lists as $k => $v) {
-            if ($v->val != null) {
+            if ($v->val !== null) {
                 $tmp[] = $v->val;
                 self::margeArray($tmp,$v->next);
             }
         } 
-        
-        sort($tmp);
+
+        sort($tmp,SORT_NUMERIC);
         $tmp = self::convertListNode($tmp);
         return $tmp;
     }
 
     static private function margeArray(&$array,$val) {
-        $array[] = $val->val;
-        if ($val->next != null) {
-            self::margeArray($array,$val->next);
-        }
+        //if ($v->val !== null) {
+            $array[] = $val->val;
+            if ($val->next !== null) {
+                self::margeArray($array,$val->next);
+            }
+       // }
         return $array;
     }
 
@@ -41,8 +44,8 @@ class Solution {
         $pos = count($array);
         $tmp = array();
         foreach ($reversed as $k => $v) {
-            if ($v == null) {
-                break;
+            if ($v === null) {
+               continue;
             }
             $obj = new ListNode();
             $obj->val = $v;
@@ -57,7 +60,8 @@ class Solution {
 
             $pos--;
         }
-        return array_values($tmp);
+        $tmp = array_values($tmp);
+        return $tmp[0];
     }
 }
 
@@ -67,9 +71,13 @@ class Solution {
   //   $json = '[{"val":1,"next":null}]';
     $json = '[{"val":1,"next":{"val":4,"next":{"val":5,"next":null}}},{"val":1,"next":{"val":3,"next":{"val":4,"next":null}}},{"val":2,"next":{"val":6,"next":null}}]';
 
+//    $json = '[{"val":0,"next":{"val":2,"next":{"val":5,"next":null}}}]';
+//    $json = '[{"val":1,"next":null},{"val":0,"next":null}]';
+
     $lists = json_decode($json);
     $return = Solution::mergeKLists($lists);
     var_dump(json_encode($return));
+
 
 ?>
 
