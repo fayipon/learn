@@ -4,7 +4,7 @@
      * @param String $s
      * @return Integer
      */
-    function lengthOfLongestSubstring($s) {
+function lengthOfLongestSubstring($s) {
         $max = $len = 0;
         $current = "";
         for ($i=0;$i<strlen($s);$i++) {
@@ -18,4 +18,4 @@
         }
         
         return $max;
-    }
+}
