@@ -37,6 +37,8 @@ leet code 題目
 <br>
 /leet_code/python
 <br>
+/leet_code/ruby
+<br>
 <br>
 
 語言陸續增加中
