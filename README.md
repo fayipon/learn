@@ -16,8 +16,6 @@ golang 自我基礎練習
 # leet_code
 leet code 題目
 <br>
-/leet_code
-<br>
 ./leet_code/php
 <br>
 ./leet_code/golnag
