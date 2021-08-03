@@ -7,12 +7,12 @@ leetcode與codewars的差別之一在於<br>
 <br>
 leetcode主要面向演算法<br>
 而codewars則是對於語言的了解程度, 以最短及最快的方式達成<br>
-但codewars不見得很難,畢竟不是全都演算法相關<br>
-二者取向不同,各有優缺點<br>
+但codewars題目不見得很難,更像極端化寫法<br>
+二者面向不同,各有優缺點<br>
 <br>
-<br>
-<br>
-<br>
+通常我會先以PHP先解,再用其他語言實現<br>
+但也因為跨語言有點嘔心,比如在php裡寫go ,這種蠢事時常發生<br>
+所以解題順序,完全取決當天心情...<br>
 <br>
 
 # leet_code
