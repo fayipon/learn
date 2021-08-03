@@ -8,10 +8,7 @@
 <b>聽過安麗嗎？ (X</b><br>
 然後突然想著,重溫一下也不壞<br>
 <br>
-<br>
-<br>
-利用leetcode之類的題目來做多個語言的練習<br>
-<br>
+主要利用leetcode之類的題目來做多個語言的練習<br>
 leetcode與codewars的差別之一在於<br>
 <br>
 leetcode主要面向演算法<br>
