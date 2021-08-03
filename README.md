@@ -3,30 +3,32 @@
 由於我曾學過多個語言,但很多早忘了,為了重拾<br>
 利用leetcode之類的題目來做多個語言的練習<br>
 <br>
+leetcode與codewars的差別之一在於<br>
+<br>
+leetcode主要面向演算法<br>
+而codewars則是對於語言的了解程度, 以最短及最快的方式達成<br>
+但codewars不見得很難,畢竟不是全都演算法相關<br>
+二者取向不同,各有優缺點<br>
 <br>
 <br>
-
-
-
-
-golang 自我基礎練習
 <br>
-/learn
+<br>
+<br>
 
 # leet_code
 leet code 題目
 <br>
-./leet_code/php
+/leet_code/php
 <br>
-./leet_code/golnag
+/leet_code/golnag
 <br>
-./leet_code/javascript
+/leet_code/javascript
 <br>
-./leet_code/c++
+/leet_code/c++
 <br>
-./leet_code/nodejs
+/leet_code/nodejs
 <br>
-./leet_code/python
+/leet_code/python
 <br>
 <br>
 
