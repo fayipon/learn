@@ -31,7 +31,6 @@ func twoSum(nums []int, target int) []int {
 	for k, v := range nums {
 		c = target - v
 		for kk, eachItem := range nums {
-
 			if eachItem == c && k != kk {
 				pos[0] = kk
 				pos[1] = k
