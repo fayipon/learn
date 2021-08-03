@@ -22,6 +22,14 @@ leet code 題目
 <br>
 ./leet_code/golnag
 <br>
+./leet_code/javascript
+<br>
+./leet_code/c++
+<br>
+./leet_code/nodejs
+<br>
+./leet_code/python
+<br>
 <br>
 
 語言陸續增加中
