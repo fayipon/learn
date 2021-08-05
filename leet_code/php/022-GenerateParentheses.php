@@ -1,7 +1,7 @@
 <?php
 /*
-Runtime: 36 ms, faster than 24.80% of PHP online submissions for Valid Parentheses.
-Memory Usage: 15.8 MB, less than 53.15% of PHP online submissions for Valid Parentheses.
+Runtime: 4 ms, faster than 86.67% of PHP online submissions for Generate Parentheses.
+Memory Usage: 16.8 MB, less than 11.11% of PHP online submissions for Generate Parentheses.
 
 列出所有括號的組合 , 步驟最多到8步
 
@@ -76,8 +76,8 @@ step 4 (4的3次方)
 class Solution {
 
     /**
-     * @param String $s
-     * @return Boolean
+     * @param Integer $n
+     * @return String[]
      */
     static function generateParenthesis($n) {
     
@@ -87,7 +87,8 @@ class Solution {
         
         $tmp = self::generate($n-1, $tmp);
 
-        print_r($tmp) . "\n";
+        sort($tmp);
+        return $tmp;
     }
 
     static function generate($n, $array) {
@@ -123,7 +124,7 @@ class Solution {
 
 // 測試用例
 $test_case = array(
-    array("3",true),
+    array("3",["((()))","(()())","(())()","()(())","()()()"]),
 
 );
 
