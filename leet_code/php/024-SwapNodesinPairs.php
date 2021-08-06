@@ -36,9 +36,47 @@ class Solution {
 
         $first = $head;
         $second = $head->next;
+
         $first->next = $this->swapPairs($second->next);
         $second->next = $first;
+        
         return $second;
+    }
+
+    
+    static private function margeArray(&$array,$val) {
+        //if ($v->val !== null) {
+            $array[] = $val->val;
+            if ($val->next !== null) {
+                self::margeArray($array,$val->next);
+            }
+       // }
+        return $array;
+    }
+
+    static private function convertListNode($array) {
+        $reversed = array_reverse($array);
+        $pos = count($array);
+        $tmp = array();
+        foreach ($reversed as $k => $v) {
+            if ($v === null) {
+               continue;
+            }
+            $obj = new ListNode();
+            $obj->val = $v;
+            if ($k > 0) {
+                $obj->next = @$tmp[$pos];
+                unset($tmp[$pos]);
+            } else {
+                $obj->next = null;
+            }
+
+            $tmp[$pos-1] = $obj;
+
+            $pos--;
+        }
+        $tmp = array_values($tmp);
+        return $tmp[0];
     }
 
 }
