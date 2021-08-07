@@ -8,7 +8,12 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 Runtime: 28 ms, faster than 53.93% of PHP online submissions for Remove Duplicates from Sorted Array.
 Memory Usage: 17.7 MB, less than 53.14% of PHP online submissions for Remove Duplicates from Sorted Array.
 
-這題算法 就是
+這題 簡單說
+在php裡, 使用了 &$nums 
+執行了removeDuplicates($nums) 後
+$nums 值會跟著變動
+
+然後我們要返回指針pos, 來標計第N位後的位數是無意義的
 
 */
 
