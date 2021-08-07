@@ -4,10 +4,22 @@
 Difficuity : Medium
 
 Runtime: 8 ms, faster than 80.56% of PHP online submissions for Divide Two Integers.
-Memory Usage: 15.4 MB, less than 94.44% of PHP online submissions for Divide Two Integers.
+Memory Usage: 15.8 MB, less than 16.67% of PHP online submissions for Divide Two Integers.
 
 p.s 這題規則是 不使用 乘 , 除 , 及 % 等運算
 只靠加減來運算
+
+這題有幾個有趣的地方
+
+它會傳入一些奇怪的參數
+比如 2147483647 , 1
+這樣迴圈就要跑2147483647次 , 然後超時
+
+原本硬派解法
+到了這邊就完全過不了
+
+只剩偷雞, 但我又想以硬派的方式過這題
+所以還在思考思考, 應該有更好的解法
 
 */
 class Solution {
