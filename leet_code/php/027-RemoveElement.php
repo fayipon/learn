@@ -3,11 +3,13 @@
 27. Remove Element
 Difficuity : Easy
 
-https://leetcode.com/problems/reverse-nodes-in-k-group/
+https://leetcode.com/problems/remove-element/
 
-Runtime: 12 ms, faster than 73.33% of PHP online submissions for Reverse Nodes in k-Group.
-Memory Usage: 17.2 MB, less than 33.33% of PHP online submissions for Reverse Nodes in k-Group.
+Runtime: 4 ms, faster than 91.11% of PHP online submissions for Remove Element.
+Memory Usage: 15.7 MB, less than 21.78% of PHP online submissions for Remove Element.
 
+就... 跟026差不多
+都是easy題
 */
 class Solution {
 
